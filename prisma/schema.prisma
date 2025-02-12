@@ -19,3 +19,11 @@ model Todo {
   description   String
   image String
 }
+
+
+model Food {
+  id Int @id @unique @default(autoincrement())
+  title  String
+  price   String
+  image String
+}
