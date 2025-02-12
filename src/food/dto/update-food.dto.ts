@@ -7,3 +7,5 @@ export class UpdateFoodDto extends PartialType(CreateFoodDto) {
   price: string;
   image: string;
 }
+
+// hello
