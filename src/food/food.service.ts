@@ -29,7 +29,7 @@ export class FoodService {
     if (!food) {
       return {
         status: HttpStatus.NOT_FOUND,
-        message: `Food with id ${id} not found`,
+        message: `Еда с id ${id} не найдена`,
       };
     }
     return food;

@@ -29,7 +29,7 @@ export class TodoService {
     if (!todo) {
       return {
         status: HttpStatus.NOT_FOUND,
-        message: `Todo with id ${id} not found`,
+        message: `Задача с id ${id} не найдена`,
       };
     }
     return todo;
