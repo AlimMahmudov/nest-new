@@ -13,5 +13,5 @@ export class CreateFoodDto {
 
 export class Food {
   [x: string]: any;
-  todo: any = [];
+  food: any = [];
 }
