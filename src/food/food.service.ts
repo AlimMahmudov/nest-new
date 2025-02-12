@@ -5,7 +5,7 @@ import { PrismaService } from 'prisma/prisma.service';
 
 @Injectable()
 export class FoodService {
-  constructor(private readonly prismaService: PrismaService) {}
+  constructor(private prismaService: PrismaService) {}
 
   async create(createFoodDto: CreateFoodDto) {
     const newFood = await this.prismaService.food.create({

@@ -11,7 +11,7 @@ export class CreateFoodDto {
   image: string;
 }
 
-export class Food {
-  [x: string]: any;
-  food: any = [];
-}
+// export class Food {
+//   [x: string]: any;
+//   food: any = [];
+// }
